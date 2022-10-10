@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @xffeng2021
+- 👋 Hi, my name is Xiaofang
 - 👀 I’m interested in mastering wad2
 - 🌱 I’m currently learning Github and Javascript
 - 💞️ I’m looking forward to expand my knowledge in this course and enjoy in programming 

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xiaofang </title>
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+
+  <body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">XIAOFANG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#aboutme">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#travel">TRAVEL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">TRAVEL VIDEO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#travel-form">SUGGESTION FORM</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/background1.jpg" class="d-block w-100" alt="...">
+            <div class="text-block1">
+              <p >Welcome to my webpage</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/background2.jpg" class="d-block w-100" alt="...">
+            <div class="text-block">
+              <p >This is where I want to be right now</p>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/library.jpg" class="d-block w-100" alt="...">
+            <div class="text-block3">  
+              <p >Where I actually am...LKS...</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>    
+    </div>
+
+      <p class="hello" style="text-align:center;">About Me</p>
+      <div class="aboutme d-flex" >
+        <img src="img/xiaofang.jpg" alt="" style="width:200px;"> 
+          <div class="aboutme-content col-8 my-auto mx-auto">
+            <h5>HI I'M XIAOFANG</h5>
+            <p>I'm currently in SCIS, Year 2. I created this website for class part but halfway through, I realised that this is so fun because I was able to explore my creativity boundlessly.</p>
+          </div>
+      </div>
+
+      
+      <div class="travel mx-auto">
+        
+        <div class="travel-header">
+          <h7>Travel</h7>
+        </div>  
+
+        <div class="travel-content justify-content-center d-flex">
+
+          <div class="card col-lg-2" style="width: 15rem; height:12rem">
+            <img src="img/korea3.jpg" class="card-img-top" alt="..." styl="width:10rem; height:10rem;">
+            <div class="card-body">
+              <p class="card-text">KOREA</p>
+              <p class="card-content">beautiful view and i love sunset!!! </p>
+              <p class="card-content">10/10</p>
+            </div>
+          </div>
+  
+          <div class="card col-lg-2 " style="width: 15rem; height:15rem">
+            <img src="img/skiing.jpg" class="card-img-top" alt="..." styl="width:10rem; height:10rem;">
+            <div class="card-body">
+              <p class="card-text">KOREA</p>
+              <p class="card-content">Snow happy because I love skiing. </p>
+              <p class="card-content">would love to try out snowboarding too</p>
+           
+            </div>
+          </div>
+  
+          <div class="card  col-lg-2" style="width: 15rem; height:15rem; ">
+            <img src="img/paragliding.jpg" class="card-img-top" alt="..." styl="width:10rem; height:10rem;">
+            <div class="card-body">
+              <p class="card-text">KOREA</p>
+              <p class="card-content">This is instgram worthy but honestly I am scared for my life</p>
+              <p class="card-content">My friends insisted so I guess...no choice</p>
+            </div>
+          </div>
+
+          <div class="card  col-lg-2" style="width: 15rem; height:15rem">
+            <img src="img/korea8.jpg" class="card-img-top" alt="..." styl="width:10rem; height:9rem;">
+            <div class="card-body">
+              <p class="card-text">KOREA</p>
+              <p class="card-content">Another adventurous activity! IN WINTER??? </p>
+            </div>
+          </div>
+
+          <div class="card  col-lg-2" style="width: 15rem; height:15rem">
+            <img src="img/sauna.jpg" class="card-img-top" alt="..." styl="width:10rem; height:9rem;">
+            <div class="card-body">
+              <p class="card-text">KOREA</p>
+              <p class="card-content">sauna</p>
+            </div>
+          </div>
+
+          <div class="card  col-lg-2" style="width: 15rem; height:15rem">
+            <img src="img/kbbq.jpg" class="card-img-top" alt="..." styl="width:10rem; height:9rem;">
+            <div class="card-body">
+              <p class="card-text">and......KOREA</p>
+              <p class="card-content">HEHHEHE I am not surprised if we are going for KBBQ 5 meals a day</p>
+            </div>
+          </div>
+
+          
+
+        </div> 
+      </div> <!--travel content end-->
+
+        <div class="video-header">
+          <p style="text-align:center">Video</p>
+        </div>
+        <div class="video d-flex">
+          <div class="video-text mx-auto my-auto">
+          <p>A Youtube video about Korea that I really love </p>
+          <p style="text-align:center;">The baby is so cute mannnn!!!!!</p>
+          </div>
+          <iframe width="440" height="315" src="https://www.youtube.com/embed/SDK3ab6Q-T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+       
+        
+      </div> <!--travel end-->
+
+
+      <div class="travel-form-header justify-content-center">
+        <p style="text-align:center;">Suggestion Form</p>
+
+     </div>
+
+     <div class="travel-form">
+      <form>
+        <div class="mb-4">
+          <label for="exampleInputEmail1" class="form-label">Fullname:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Places/restaurants to recommend for my Korea trip this December :) </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

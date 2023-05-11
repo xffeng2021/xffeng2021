@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @xffeng2021
-- 👀 I’m interested in mastering wad2
-- 🌱 I’m currently learning Github and Javascript
-- 💞️ I’m looking forward to expand my knowledge in this course and have lots of fun
+- 👋 Hi, I’m XiaoFang
+- 👀 I’m currently pursuing a degree in Information System and Security at SMU
+- 🌱 My interest lies in the field of data analystics and cybersecurity
+- 💞️ I am actively improving my skills and knowledge and I am eager to make meaninful contribution to the field as a dedicated professional.
 
 <!---
 xffeng2021/xffeng2021 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
